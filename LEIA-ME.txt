@@ -1,0 +1,38 @@
+ENTRELINHAS — PUBLICAÇÃO NO GITHUB PAGES
+
+1. Entre no GitHub como fdcastro90.
+2. Crie um repositório NOVO chamado entrelinhas-veraldo, público, com README.
+   Repositório público permite GitHub Pages no plano gratuito.
+   Não substitua o site atividade-veraldo-leite.
+3. Extraia este ZIP no computador. Não envie o ZIP inteiro ao GitHub.
+4. No repositório: Add file > Upload files. Arraste TODO o conteúdo extraído,
+   incluindo a pasta assets. index.html deve ficar na raiz do repositório.
+   Clique em Commit changes. Confira se assets/examples contém as imagens.
+5. Settings > Pages > Source: Deploy from a branch.
+   Branch: main. Pasta: /(root). Clique em Save.
+6. Aguarde a publicação e use o endereço exibido pelo GitHub.
+   Com o nome indicado, será https://fdcastro90.github.io/entrelinhas-veraldo/
+7. Teste no celular, inclusive o login de professor e uma atividade.
+
+PRIMEIRO ACESSO
+Entre como professor com 000000; informe seu código reservado e escolha uma
+senha pessoal. Os códigos são entregues em outro documento privado.
+Este ZIP NÃO inclui lista de alunos, códigos, senhas ou chave de serviço.
+A chave publicável do projeto é própria para uso no navegador.
+
+ATUALIZAÇÕES POSTERIORES
+Textos e questões: no app, entre como professor e abra Professor.
+Importe/edite um rascunho, confira a prévia e comentários, envie ao servidor,
+confira a prévia online e publique. O painel publica no Supabase; não é preciso
+reenviar o ZIP ao GitHub para essas atividades.
+Rascunhos podem ser editados. Atividades publicadas podem ser arquivadas;
+para corrigir uma publicada, prepare uma nova versão e publique como outra
+atividade. Isso preserva respostas, pontuação e feedback anteriores.
+Rascunhos locais ficam no navegador: salve/exporte ou envie ao servidor.
+Jogos novos, visual, mapas e funcionalidades precisam de atualização dos
+arquivos do site; podem ser preparados com o ChatGPT e reenviados ao GitHub.
+O painel não cria novos tipos de jogos automaticamente.
+
+O login, respostas, acompanhamento e ranking usam o Supabase conectado.
+Alunos não precisam de contas do ChatGPT nem do GitHub.
+Nunca envie o documento reservado de códigos ou a lista dos alunos ao GitHub.
