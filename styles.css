@@ -16,3 +16,9 @@ body{background:var(--paper);font-family:'Trebuchet MS',Arial,Helvetica,sans-ser
 
 /* Acesso e acompanhamento da turma */
 .account-form{display:grid;gap:16px}.account-form label{display:grid;gap:8px;font-size:14px;font-weight:bold}.account-form input,.account-form select{width:100%;padding:12px;border:1px solid #9fb2a3;border-radius:7px;background:#fffdf7;font-size:16px}.account-form button:disabled{opacity:.55;cursor:wait}.table-scroll{overflow-x:auto;margin:20px 0}.rank-table{width:100%;border-collapse:collapse;font-size:14px}.rank-table th,.rank-table td{text-align:left;padding:13px 12px;border-bottom:1px solid #b9c6b9;line-height:1.5}.rank-table th{background:#e9efdd}.rank-table tr.is-me{background:#f5e7b8}.teacher-online{margin-bottom:35px}.week-picker{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:20px 0}.activation-code{font:700 20px/1.7 monospace;padding:18px;background:#e9efdd;overflow-wrap:anywhere;border-radius:10px}#challenge-schedule{display:grid;gap:15px}#challenge-schedule[hidden]{display:none}#class-catalog{margin-top:35px}button:disabled{cursor:wait;opacity:.6}@media(max-width:620px){.rank-table{font-size:12px}.rank-table td,.rank-table th{padding:10px}.activation-code{font-size:17px}}
+
+/* Resultado final prevalece sobre o destaque da escolha, inclusive no celular. */
+.option.wrong,.option.wrong:has(input:checked){background:#fff0df;border-color:#b65308;color:#7c3500}
+.option.correct,.option.correct:has(input:checked){background:#e7f1e9;border-color:var(--green);color:#164e3c}
+.option.wrong input{accent-color:#b65308}
+.option.correct input{accent-color:var(--green)}
